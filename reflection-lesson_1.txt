@@ -1,0 +1,71 @@
+Reflection One:
+
+Do comparison by hand (on Windows):
+open command line 
+cd to the directory containing files
+FC new_file old_file
+q: get back to prompt (from log)
+
+
+
+Question: 
+How did viewing a diff between two versions of a file help you 
+see the bug that was introduced?
+
+Answer:
+FC prints all changes. If there are not too many changes,
+a typo is easy to spot.
+
+
+
+Question: 
+What do you think are the pros and cons of manually choosing 
+when to create a commit, like you do in Git, vs having versions 
+automatically saved, like Google Docs does?
+
+Answer:
+Pro: Programmer has more control to decide the value of changes.
+Con: Programmer might forget to commit changes.
+
+
+
+Question: 
+Why do you think some version control systems, like Git, allow 
+saving multiple files in one commit, while others, like Google 
+Docs, treat each file separately?
+
+Answer:
+In programming often one program file relies on other files by 
+calling them, making it crucial for changes to take place in all 
+these files simultaneously. Google docs are usually text documents 
+which are indenpendent from each other.
+
+
+
+Question:
+How can you use the commands git log and git diff to view the 
+history of files?
+
+Answer:
+git log shows a list of all commits for a certain file with their
+respective ID numbers. git diff shows the changes between one version
+and the previous.
+
+
+
+Question:
+How might using version control make you more confident to make 
+changes that could break something?
+
+Answer:
+git checkout gets you back to a previous commit. This way you can
+easily revert back to an earlier version of your code and find the
+version where the bug has been introduced.
+
+
+Question:
+Now that you have your workspace set up, what do you want to try 
+using Git for?
+
+Answer:
+Don't know.
