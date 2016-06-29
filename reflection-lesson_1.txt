@@ -4,7 +4,6 @@ Do comparison by hand (on Windows):
 open command line 
 cd to the directory containing files
 FC new_file old_file
-q: get back to prompt (from log)
 
 
 
@@ -16,6 +15,7 @@ Answer:
 FC prints all changes. If there are not too many changes,
 a typo is easy to spot.
 
+q: get back to prompt (from log)
 
 
 Question: 

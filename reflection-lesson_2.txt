@@ -13,4 +13,44 @@ repository? What value do you think it offers?
 
 Answer:
 The staging area is a bridge between the working directory and the
-repository. 
+repository. You can review changes before committing them.
+
+
+
+Question:
+How can you use the staging area to make sure you have one commit per logical change?
+
+Answer:
+Add one changes to staging area and then commit them individually.
+
+
+
+Question:
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Answer:
+If you make experimental changes or need different versions of the same program.
+
+
+
+Question:
+How do the diagrams help you visualize the branch structure?
+
+Answer:
+You can see how the different branches relate to each other.
+
+
+
+Question:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer:
+Changes in the two branches appear both in one copy. Is this the new master copy?
+
+
+
+Question:
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Answer:
+If file only has one author automatic merging might make sense because you are aware of conflicts, otherwise manual is probably better.
