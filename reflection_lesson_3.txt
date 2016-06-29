@@ -11,3 +11,19 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Answer:
 Someone else might make changes that you do not want to incorporate.
+
+
+
+Question:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Answer:
+Use fork to copy a repository from one GitHub account into another, clone respository to your local computer to work on it. Inside a repository create a new branch to make changes but keep master branch unaffected.
+
+
+
+Question:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer:
+You can run a diff and see the changes you made locally.
