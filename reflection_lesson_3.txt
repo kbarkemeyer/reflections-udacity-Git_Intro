@@ -27,3 +27,19 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Answer:
 You can run a diff and see the changes you made locally.
+
+
+
+Question:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer:
+You would have to compare and merge files by hand, which would take a lot more time. You also could not collaborate with strangers in open source projects. If you are just working with a few people on one project, you could discuss changes to the project and one of you makes them, which might be easier than using GitHub.
+
+
+
+Question:
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Answer:
+You would make changes in a separate branch if these changes are experimental, or need to be reviewed by collaborators before merging them with master.
